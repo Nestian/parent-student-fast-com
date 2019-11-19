@@ -6,6 +6,8 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import AppContext from './components/contexts/app-context';
 import Login from './components/login';
 import Navbar from './components/navbar/navbar';
+import User from './components/studentUser';
+import Parent from './components/parentUser';
 
 const App: React.FC = () => {
   let appContext = new AppContext();
@@ -17,6 +19,14 @@ const App: React.FC = () => {
           <Navbar context={appContext} />
           <div>
             <Route path="/" render={() => <Login context={appContext} />} />
+            <Route
+              path="/user"
+              component={() => <User context={appContext} />}
+            />
+            <Route
+              path="/parent"
+              component={() => <Parent context={appContext} />}
+            />
           </div>
         </Router>
       </div>

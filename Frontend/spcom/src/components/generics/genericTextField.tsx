@@ -1,9 +1,8 @@
 import React from 'react';
 import { TextField } from '@material-ui/core';
 
-// To auto generate repeated properties of a text field
-// used throughout admin pages, takes the unique properties
-// that would identify the text field's purpose
+// This component is the text field format which
+// is consistently used throughout the application
 
 interface IProps {
   name: string;

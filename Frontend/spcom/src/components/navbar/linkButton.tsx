@@ -4,7 +4,7 @@ import { withRouter, RouteComponentProps } from 'react-router';
 import { Path } from 'history';
 import { Button } from '@material-ui/core';
 
-// Button that integrates router-link functionality as well as on-Click
+// Button component that integrates router-link functionality as well as on-Click
 
 interface Routable extends RouteComponentProps {
   to: Path;

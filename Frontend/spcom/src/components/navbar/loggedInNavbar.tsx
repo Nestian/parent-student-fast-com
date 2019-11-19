@@ -12,6 +12,10 @@ import LinkButton from './linkButton';
 import { observer } from 'mobx-react-lite';
 import AppContext from '../contexts/app-context';
 
+// The navbar to be rendered if the user is logged in
+// Indicates the user's name as a tab and changes
+// log (in) tab to log (out)
+
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     root: {
@@ -53,7 +57,7 @@ export default observer(function LoggedInNavBar(props: IProps) {
           <Typography variant="h6" className={classes.title}>
             SpCom
           </Typography>
-          <Button color="inherit">{context.userName}</Button>
+          <Button color="inherit">{context.shortEmail}</Button>
           <LinkButton to="/" onClick={handleLogout}>
             Logout
           </LinkButton>

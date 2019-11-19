@@ -9,6 +9,10 @@ import {
 } from '@material-ui/core';
 import MenuIcon from '@material-ui/icons/Menu';
 
+// The navbar to be rendered if the user is not yet
+// logged in to our application
+
+// Default Material UI styling
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     root: {
@@ -23,6 +27,7 @@ const useStyles = makeStyles((theme: Theme) =>
   })
 );
 
+// The logged out navbar has a login tab
 export default function LoggedOutNavBar() {
   const classes = useStyles();
 
