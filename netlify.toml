@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build"
+  publish="Frontend/spcom/build"
+  base = "Frontend/spcom"
+
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200
