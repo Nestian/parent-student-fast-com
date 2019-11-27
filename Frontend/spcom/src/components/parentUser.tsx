@@ -21,7 +21,7 @@ interface IProps {
   context: AppContext;
 }
 
-// To track, whether the parent wants to see student messages
+// Tracks whether the parent wants to see student messages
 interface IState {
   displayMessages: boolean;
 }
@@ -72,7 +72,7 @@ export class ParentUser extends React.Component<IProps, IState> {
   }
 
   // Functions below are responsible to render the messages
-  // sent by the relevant ...
+  // sent by the relevant student
 
   // Each message text is a list item
   renderMessages(text: string) {

@@ -13,7 +13,10 @@ import {
 import GenericTextField from './generics/genericTextField';
 import { Redirect } from 'react-router';
 
-// This component is responsible to render the login page.
+// This component is responsible to render the default app page (login).
+// Users will be redirected to the appropriate landing page (user OR parent),
+// IF the typed in credentials match the DB record. ELSE IF the user wants to
+// register, in which case will be redirected to register page. ELSE re-render(login).
 
 interface IProps {
   context: AppContext;

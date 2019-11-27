@@ -129,7 +129,7 @@ export class StudentUser extends React.Component<IProps, IState> {
     if (this._context.messageSubmitted) {
       return (
         <Typography color={this.decideStatusColor()}>
-          Message sent to {this._context.userName}
+          Message sent to {this._context.parentUserName}
         </Typography>
       );
     } else return;
