@@ -40,7 +40,7 @@ namespace Api.Controllers
             Users user = userResult.User;
             if(!user.Active)
             {
-                return Ok("User info is being archived");
+                return Ok("Cannot retreive. User info is being archived");
             }
 
             return user;

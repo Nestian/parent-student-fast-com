@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ASUS\\Desktop\\API\\API\\API.csproj": {}
+    "C:\\Users\\ASUS\\Desktop\\sengcw\\Backend\\API\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ASUS\\Desktop\\API\\API\\API.csproj": {
+    "C:\\Users\\ASUS\\Desktop\\sengcw\\Backend\\API\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\API\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\sengcw\\Backend\\API\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\ASUS\\Desktop\\API\\API\\API.csproj",
+        "projectPath": "C:\\Users\\ASUS\\Desktop\\sengcw\\Backend\\API\\API\\API.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\Desktop\\API\\API\\obj\\",
+        "outputPath": "C:\\Users\\ASUS\\Desktop\\sengcw\\Backend\\API\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
